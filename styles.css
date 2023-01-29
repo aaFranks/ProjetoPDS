@@ -1,0 +1,154 @@
+:root {
+    --loginBackground: #EEEEEE;
+    --buttomColor: #3FA14C;
+    --pressedButtom: #308b65;
+    --buttomTextColor: #FFFFFF;
+    --inputText: #CCCCCC;
+}
+
+body {
+    background-image: url("./Background.png");
+}
+
+#login {
+    position: absolute;
+    /* display: flex; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 23rem;
+    height: 32rem;
+    background-color: var(--loginBackground);
+    border-radius: 2%;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+}
+
+input {
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 2%;
+    border: 2px solid var(--inputText);
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 0;
+    margin:  0;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+#loginText {
+    text-align: center;
+    margin: 5%;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 5%;
+}
+
+h2 {
+    padding: 0;
+    margin:  0;
+    font-style: normal;
+    font-size: 1.45rem;
+    font-weight: 300;
+}
+
+
+#title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    padding-top: 10%;
+}
+
+#name {
+    float: right;
+    flex-grow: 1;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+#logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+#form {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    /* padding-top: 20%; */
+}
+
+#bottom {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    padding-top: 5%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#userInput {
+    padding-bottom: 8%;
+}
+
+#userPassword {
+    padding-bottom: 8%;
+}
+
+button{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    background: var(--buttomColor);
+    border-radius: 32px;
+    color: var(--buttomTextColor);
+    padding: 4%;
+    border: none;
+    cursor:pointer;
+}
+
+button:active{
+    background-color: var(--pressedButtom);
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    color: var(--buttomColor);
+    padding-top: 5%;
+    text-decoration: none;
+}
